@@ -20,6 +20,8 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(Catch2)
 
+add_executable(part1 src/part1.cpp)
+
 add_executable(tester1 test/tester1.cpp ${ALG_CPP})
 target_link_libraries(tester1 PRIVATE Catch2::Catch2WithMain)
 
