@@ -1,0 +1,14 @@
+{
+  "name": "C++",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-22.04",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools-extension-pack"
+      ],
+      "settings": {
+        "cmake.configureOnOpen": false
+      }
+    }
+  }
+}

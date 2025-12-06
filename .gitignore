@@ -1,0 +1,30 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE/tools
+.gradle
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.idea
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+logs
+*.log
+build/*
+cmake-build-debug
+.vs
+*.out
+out
+
+# Exceptions
+!build/.keep
